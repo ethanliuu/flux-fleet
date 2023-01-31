@@ -1,12 +1,10 @@
 ---
 apiVersion: source.toolkit.fluxcd.io/v1beta2
-kind: GitRepository
+kind: HelmRepository
 metadata:
   name: chart-repo
   namespace: flux-system
 spec:
-  interval: 30s
-  ref:
-    branch: main
-  url: https://github.com/ethanliuu/chart-repo
+  interval: 1m0s
+  url: https://ghproxy.com/https://github.com/ethanliuu/chart-repo/blob/main
 
