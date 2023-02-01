@@ -18,7 +18,7 @@ spec:
       name: nginx
     image:
       pullPolicy: IfNotPresent
-      registry: nginx
+      registry: docker.io
       tag: 1.23.0
     resources:
       limits:
