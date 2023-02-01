@@ -30,8 +30,6 @@ spec:
     image:
       repository: ethanliuu/wego-app
     ingress:
-      annotations:
-        kubernetes.io/ingress.class: nginx
       className: nginx
       enabled: true
       hosts:
