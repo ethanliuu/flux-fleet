@@ -3,7 +3,7 @@ app:
   name: nginx
 
 image:
-  registry: nginx
+  registry: docker.io
   tag: 1.23.0
   pullPolicy: IfNotPresent
 
