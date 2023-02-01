@@ -16,7 +16,7 @@ metadata:
 spec:
   chart:
     spec:
-      chart: ww-gitops
+      chart: weave-gitops
       reconcileStrategy: ChartVersion
       sourceRef:
         kind: HelmRepository
