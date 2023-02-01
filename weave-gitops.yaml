@@ -3,7 +3,7 @@ image:
 adminUser:
   create: true
   username: admin
-  passwordHash: admin
+  passwordHash: $2a$10$s.YkIPJ3foKtCmpiwBU6k.zVV0VlFS/ihhF7Jc2vT8WJ8rFkmY7zm
 ingress:
   enabled: true
   className: "nginx"
